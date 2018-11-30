@@ -28,11 +28,10 @@ light gray: DED9C2
 #header {
   background-color: #C2A95E;
   padding: 20px;
-  margin: 10px;
 }
 
 .col {
-  align-content: center;
+  box-align: center;
   padding: 20px;
   margin: 10px;
 
@@ -55,17 +54,24 @@ p {
 }
 
 .pic1 {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 450px;
   padding: 20px;
   float: right;
 }
 
 .pic2 {
   height: 300px;
-  width: 300px;
+  width: 450px;
   margin: 20px 20px 20px 20px;
   float: left;
+}
+
+.pic3 {
+  height: 300px;
+  width: 250px;
+  padding: 20px;
+  float: right;
 }
 
 .lead{

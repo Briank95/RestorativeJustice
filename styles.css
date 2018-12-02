@@ -30,12 +30,13 @@ light gray: DED9C2
   padding: 20px;
 }
 
-.col {
-  box-align: center;
-  padding: 20px;
-  margin: 10px;
-
+.container {
+  width:1150px;
+  margin:0 auto;
+  position:relative;
+  text-align:center;
 }
+
 .jumbotron {
   margin-bottom: 20px;
   background-image: url(./images/justiceimg.jpg);
@@ -47,7 +48,11 @@ light gray: DED9C2
 h3 {
   padding-left: 20px;
   padding-top: 20px;
-}
+  }
+
+ h4 {
+   color: black;
+ }
 
 p {
   padding: 20px;
@@ -69,20 +74,25 @@ p {
 
 .pic3 {
   height: 300px;
-  width: 250px;
+  width: 450px;
   padding: 20px;
   float: right;
 }
 
 .lead{
-  color: #003c61;
-  font-family: Lato Georgia, 'Times New Roman', Times, serif;
-  font-weight: normal;
+  color: #DED9C2;
+  font-family: 'Alfa Slab One', 'Lato', 'Georgia', 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-shadow: 0 2px black;
+  text-align: left;
 }
+
 .display-4 {
   color: #fa4616;
-  font-family: Lato Georgia, 'Times New Roman', Times, serif;
-  font-weight: normal;
+  font-family: 'Alfa Slab One', 'Lato', 'Georgia', 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  text-align: left;
+  
 }
 .img{
   width: 30%;
@@ -96,4 +106,14 @@ p {
 
 footer {
   padding-top: 50px;
+}
+
+.nav-link {
+  color: #fa4616;
+  font-family: 'Lato', 'Georgia', 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.description {
+  color: black;
 }

@@ -43,16 +43,19 @@ light gray: DED9C2
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-h3 {
+
+.headers {
   padding-left: 20px;
   padding-top: 20px;
+  color: #fa4616;
   }
 
- h4 {
-   color: black;
- }
+h3 a {
+    color: #fa4616;
+    
+
+  }
 
 p {
   padding: 20px;
@@ -73,14 +76,14 @@ p {
 }
 
 .pic3 {
-  height: 300px;
-  width: 450px;
+  height: 260px;
+  width: 420px;
   padding: 20px;
   float: right;
 }
 
 .lead{
-  color: #DED9C2;
+  color: hsl(49, 30%, 92%);
   font-family: 'Alfa Slab One', 'Lato', 'Georgia', 'Times New Roman', Times, serif;
   font-weight: bolder;
   text-shadow: 0 2px black;
@@ -108,12 +111,26 @@ footer {
   padding-top: 50px;
 }
 
+.dark {
+    border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(250, 70, 20), rgba(0, 0, 0, 0));
+}
+
+.col-md-12 {
+  color: #003c61;
+}
 .nav-link {
   color: #fa4616;
   font-family: 'Lato', 'Georgia', 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
+.nav-link:hover, .headers:hover, h3:hover, .col a:hover {
+  text-decoration: none;
+  color: hsl(13, 96%, 43%);
+}
 
 .description {
   color: black;
 }
+
